@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstViewController" customModule="CABasicAnimationDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonExpend" destination="SiF-gq-LYe" id="rGN-LO-EH0"/>
+                <outlet property="buttonOpacity" destination="1h9-Kl-aqt" id="A8t-zP-k1T"/>
+                <outlet property="redView" destination="MdA-DQ-DPj" id="Rje-HN-Tfk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1h9-Kl-aqt">
+                    <rect key="frame" x="20" y="617" width="80" height="30"/>
+                    <color key="backgroundColor" red="0.67586854799999996" green="0.29758909109999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="nvE-wj-NSH"/>
+                        <constraint firstAttribute="width" constant="80" id="wjI-re-0dv"/>
+                    </constraints>
+                    <state key="normal" title="不透明度">
+                        <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MdA-DQ-DPj">
+                    <rect key="frame" x="147" y="293" width="80" height="80"/>
+                    <color key="backgroundColor" red="1" green="0.25712870170000002" blue="0.098379859969999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="1nQ-y7-T3U"/>
+                        <constraint firstAttribute="height" constant="80" id="OWQ-I0-nzP"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SiF-gq-LYe">
+                    <rect key="frame" x="120" y="617" width="80" height="30"/>
+                    <color key="backgroundColor" red="0.67586854799999996" green="0.29758909109999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="III-JG-GYU"/>
+                        <constraint firstAttribute="height" constant="30" id="mCv-k2-XPL"/>
+                    </constraints>
+                    <state key="normal" title="从小变大">
+                        <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="MdA-DQ-DPj" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="7ms-Wq-iI8"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="SiF-gq-LYe" secondAttribute="bottom" constant="20" id="C0W-Gd-Jc7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="1h9-Kl-aqt" secondAttribute="bottom" constant="20" id="GKd-Ax-N8H"/>
+                <constraint firstItem="SiF-gq-LYe" firstAttribute="leading" secondItem="1h9-Kl-aqt" secondAttribute="trailing" constant="20" id="PdM-go-bVk"/>
+                <constraint firstItem="MdA-DQ-DPj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="krg-DF-A0P"/>
+                <constraint firstItem="1h9-Kl-aqt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="zNN-Jv-Bc2"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

@@ -12,6 +12,8 @@
 		122BCEBF1F90661B008DACCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122BCEBD1F90661B008DACCE /* Main.storyboard */; };
 		122BCEC11F90661B008DACCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 122BCEC01F90661B008DACCE /* Assets.xcassets */; };
 		122BCEC41F90661B008DACCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122BCEC21F90661B008DACCE /* LaunchScreen.storyboard */; };
+		122BCECD1F906630008DACCE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BCECB1F906630008DACCE /* FirstViewController.swift */; };
+		122BCECE1F906630008DACCE /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 122BCECC1F906630008DACCE /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		122BCEC01F90661B008DACCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		122BCEC31F90661B008DACCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		122BCEC51F90661B008DACCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		122BCECB1F906630008DACCE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		122BCECC1F906630008DACCE /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				122BCEC01F90661B008DACCE /* Assets.xcassets */,
 				122BCEC21F90661B008DACCE /* LaunchScreen.storyboard */,
 				122BCEC51F90661B008DACCE /* Info.plist */,
+				122BCECB1F906630008DACCE /* FirstViewController.swift */,
+				122BCECC1F906630008DACCE /* FirstViewController.xib */,
 			);
 			path = CABasicAnimationDemo;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 				122BCEC41F90661B008DACCE /* LaunchScreen.storyboard in Resources */,
 				122BCEC11F90661B008DACCE /* Assets.xcassets in Resources */,
 				122BCEBF1F90661B008DACCE /* Main.storyboard in Resources */,
+				122BCECE1F906630008DACCE /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122BCECD1F906630008DACCE /* FirstViewController.swift in Sources */,
 				122BCEBC1F90661B008DACCE /* ViewController.swift in Sources */,
 				122BCEBA1F90661B008DACCE /* AppDelegate.swift in Sources */,
 			);
